@@ -20,30 +20,41 @@
     
 11. We get this array: [ 50, 100, 150 ]. This is because our function populates the the array named 'discounted' with the discount added to the original prices. 
     
-12. A = student.name;
-    B = student['Grad Year'];
-    C = student.greeting();
-    D = student['Favorite Teacher'].name;
-    E = student.courseLoad[0];
+12. A = student.name;<br>
+    B = student['Grad Year'];<br>
+    C = student.greeting();<br>
+    D = student['Favorite Teacher'].name;<br>
+    E = student.courseLoad[0];<br>
 
-13. A = "32", this is because javascript would perform string concatenation cause of '+'here since '3' is a string here. 
-    B = 1, javascript would convert the result to a number because of the presence of '-'
-    C = 3, null is treated as 0
-    D = "3null", this is because of string concatenation taking place here. 
-    E = 4 , true is treated as 1
-    F = 0 , false is treated as 0, and null is also treated as 0
-    G = "3undefined", this is because string concatenation takes place here agan. 
-    H = NaN , undefined involved with '-' would always result in NaN
+13. A = "32", this is because javascript would perform string concatenation cause of '+'here since '3' is a string here. <br>
+    B = 1, javascript would convert the result to a number because of the presence of '-'<br>
+    C = 3, null is treated as 0<br>
+    D = "3null", this is because of string concatenation taking place here.<br>
+    E = 4 , true is treated as 1<br>
+    F = 0 , false is treated as 0, and null is also treated as 0<br>
+    G = "3undefined", this is because string concatenation takes place here agan. <br>
+    H = NaN , undefined involved with '-' would always result in NaN<br>
 
-14. A = 'true', '2' gets converted to a number before comparison
-    B = 'false' , this is lexicographical
-    C = 'true' , cause both have the same type after '2' is converted to a number
-    D = 'false'  , Checks both value and type, number and string are not the same type
-    E = 'false'  , does not follow type correction as true is 1
-    F = 'true' , since Boolean(2) has a value of true 
+14. A = 'true', '2' gets converted to a number before comparison<br>
+    B = 'false' , this is lexicographical<br>
+    C = 'true' , cause both have the same type after '2' is converted to a number<br>
+    D = 'false'  , Checks both value and type, number and string are not the same type<br>
+    E = 'false'  , does not follow type correction as true is 1<br>
+    F = 'true' , since Boolean(2) has a value of true <br>
 
 15. '==', checks if values compared are of same type before conversion, if not then convert them to the same tyoe and then compares. 
     '===', this does not perform the type conversion part and straight up compares the value as well as the type. 
 
-16. 
+16. In separate file
+
+17. The result is [ 2, 4, 6 ]. Here we have the array: [1 ,2 ,3 ] getting passed and then in our function it is being sent to the num function which multiplies them by 2 resulting in the array: [ 2, 4, 6 ]. 
+    
+18. In separate file
+    
+19. The code prints:
+    1 <br>
+    4 <br>
+    3 <br>
+    2 <br>
+    The first line prints 2. Then due to set timeout line 5 gets executed printing 4. 3 after that, because the setTimeout with 0 milliseconds still defers the function until the current call stack is clear. 2 last, after a 1-second delay, as specified by its setTimeout
 
