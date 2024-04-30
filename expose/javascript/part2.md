@@ -51,7 +51,7 @@
     
 18. In separate file
     
-19. The code prints:
+19. The code prints:<br>
     1 <br>
     4 <br>
     3 <br>
